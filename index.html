@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<title>مدينة ينبع | السعودية بعيون تقنية</title>
+
+<meta name="description" content="صفحة تعريفية عن مدينة ينبع وأجمل الأماكن السياحية فيها">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+ <div id="dynamicContent" class="card"></div>
+<div class="logo">ينبع</div>
+
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+<ul id="menu">
+  <li><a href="#" onclick="showSection('home')">الرئيسية</a></li>
+  <li><a href="#" onclick="showSection('sunset')">شاطئ الغروب</a></li>
+  <li><a href="#" onclick="showSection('waterfront')">الواجهة البحرية</a></li>
+  <li><a href="#" onclick="showSection('corniche')">كورنيش ينبع</a></li>
+  <li><a href="#" onclick="showSection('royal')">شاطئ الهيئة الملكية</a></li>
+</ul>
+</nav>
+
+<h1>السعودية بعيون تقنية</h1>
+<header>مدينة ينبع</header>
+
+<div class="overlay">
+
+<h2>نبذة عن المدينة</h2>
+<p>
+ينبع مدينة ساحلية جميلة تقع على البحر الأحمر وتتميز بشواطئها الساحرة وأجوائها الهادئة.
+</p>
+
+<button class="btn" onclick="showMessage()">رسالة عن ينبع</button>
+<button class="btn" onclick="showDiscover()">اكتشف ينبع</button>
+
+<div id="messageBox" class="message-box"></div>
+
+<hr>
+
+<div class="newsletter card">
+  
+  <h1 class="main-title">الرسالة الإخبارية الرقمية</h1>
+  <h2 class="place-title">أخبار مدينة ينبع</h2>
+  
+  <p class="intro">مرحبًا بكم في رسالتنا الإخبارية الرقمية، حيث نغطي أبرز أخبار ومشاريع مدينتنا الجميلة ينبع!</p>
+  
+  <div class="news-table-container">
+    <div class="news-row header">
+      <div class="news-cell title">عنوان الخبر</div>
+      <div class="news-cell desc">الوصف المختصر</div>
+    </div>
+    
+    <div class="news-row">
+      <div class="news-cell title">افتتاح مشروع تطوير كورنيش ينبع</div>
+      <div class="news-cell desc">تم افتتاح الكورنيش الجديد الذي يضيف مناطق ترفيهية ومسارات للمشي ويعزز السياحة المحلية.</div>
+    </div>
+    
+    <div class="news-row">
+      <div class="news-cell title">فعالية وطنية بمناسبة اليوم الوطني</div>
+      <div class="news-cell desc">احتفلت مدينة ينبع باليوم الوطني بأنشطة ثقافية ورياضية لجميع الأعمار.</div>
+    </div>
+    
+    <div class="news-row">
+      <div class="news-cell title">مشروع بيئي جديد</div>
+      <div class="news-cell desc">إطلاق حملة زراعة الأشجار على طول شواطئ المدينة لتعزيز البيئة البحرية والمحلية.</div>
+    </div>
+  </div>
+  
+  <div style="text-align:center;">
+    <button class="btn" onclick="showMore()">اكتشف المزيد عن ينبع</button>
+    <div id="extraContent" class="message-box"></div>
+  </div>
+  
+</div>
+<hr>
+
+<div class="card">
+<h2>شاطئ الغروب</h2>
+<img src="M/a" alt="شاطئ الغروب">
+<p>يُعد شاطئ الغروب من أجمل الأماكن في ينبع حيث يمتزج لون السماء مع زرقة البحر.</p>
+</div>
+
+<hr>
+
+<div class="card">
+<h2>الواجهة البحرية بينبع</h2>
+<img src="M/r" alt="الواجهة البحرية">
+<p>تتميز الواجهة البحرية بتصميمها الحديث وممشى جميل يطل على البحر.</p>
+</div>
+
+<hr>
+
+<div class="card">
+<h2>كورنيش ينبع</h2>
+<img src="M/i" alt="كورنيش ينبع">
+<p>يوفر كورنيش ينبع إطلالة رائعة على البحر الأحمر ومكانًا مثاليًا للتنزه.</p>
+</div>
+
+<hr>
+
+<div class="card">
+<h2>شاطئ الهيئة الملكية</h2>
+<img src="M/M" alt="شاطئ الهيئة الملكية">
+<p>يتميز هذا الشاطئ بنظافة مياهه وصفائها وهو من أجمل شواطئ ينبع.</p>
+</div>
+
+</div>
+
+<footer>
+  © 2026 مشروع تقني عن مدينة ينبع - الطالبة: ميرال | مجموعة: النجوم اللامعة ✨
+</footer>
+
+<div id="overlayBg" onclick="closeBox()"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
